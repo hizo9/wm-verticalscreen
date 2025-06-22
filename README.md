@@ -14,8 +14,8 @@ A layout plugin that arranges windows in a vertical stacking pattern, ideal for 
 <br>
 
 ## 🔔 Notes
-- This layout plugin is built for the Seelen window manager.
-- Paste the file into the resources folder of your Seelen configuration directory.
+- Built for the Seelen window manager.
+- Paste the .yml file into `\com.seelen.seelen-ui\plugins`
 
 <br>
 
