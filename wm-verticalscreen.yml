@@ -1,0 +1,33 @@
+id: '@default/wm-verticalscreen'
+metadata:
+  displayName:
+    en: Vertical Screen Layout
+  description:
+    en: Stacks windows vertically.
+  portrait: null
+  banner: null
+  screenshots: []
+  tags: []
+  appTargetVersion: null
+  filename: ''
+  bundled: true
+icon: PiPuzzlePieceDuotone
+target: '@seelen/window-manager'
+plugin:
+  structure:
+    type: Vertical
+    children:
+      - type: Leaf
+        priority: 2
+        growFactor: 1.5
+      - type: Leaf
+        priority: 1
+        growFactor: 1.5
+      - type: Horizontal
+        priority: 3
+        children:
+          - type: Leaf
+          - type: Leaf
+          - type: Leaf
+          - type: Leaf
+  noFallbackBehavior: Float
